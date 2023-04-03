@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FirstSpell - Master Your Kids Skills</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="myHeader">
+      <nav>
+        <a href="#"
+          ><img src="assets/images/icon.png" alt="FirstSpell logo"
+        /></a>
+        <h1>First Spell</h1>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>
+          Building Strong Foundations for Lifelong Learning with FirstSpell
+        </h1>
+        <p>
+          The First Spell app has a flash card-based UI design, allowing
+          children to focus on the learning material without being distracted by
+          unnecessary elements. The app covers topics suitable for pre-KG
+          students, and we will continue to add high-quality content
+          periodically to keep the app engaging and up-to-date.
+        </p>
+        <a
+          href="https://play.google.com/store/apps/details?id=in.first.spell"
+          target="_blank"
+          ><img
+            src="assets/images/get-it-on-google-play-badge.png"
+            alt="Get it on Google Play"
+            height="20%"
+            width="20%"
+        /></a>
+      </section>
+
+      <section class="features">
+        <h2>Features</h2>
+        <ul>
+          <li>
+            <img
+              src="assets/images/screen_shots/cvc_words.png"
+              alt="Feature 1"
+            />
+            <h3>CVC words</h3>
+            <p>
+              CVC (consonant-vowel-consonant) words are the building blocks of
+              early reading and writing skills. FirstSpell includes an engaging
+              and interactive CVC words learning feature that introduces
+              children to hundreds of CVC words through fun games and
+              activities. This feature is designed to enhance their phonics
+              skills, vocabulary, and reading fluency in a playful and intuitive
+              way.
+            </p>
+          </li>
+          <li>
+            <img
+              src="assets/images/screen_shots/basics_screen.png"
+              alt="Feature 2"
+            />
+            <h3>Basics</h3>
+            <p>
+              FirstSpell offers an interactive and engaging learning experience
+              that introduces young children to the basics of alphabets, shapes,
+              and colors. With our fun and easy-to-use learning modules,
+              children can explore
+            </p>
+          </li>
+          <li>
+            <img
+              src="assets/images/screen_shots/home_screen.png"
+              alt="Feature 3"
+            />
+            <h3>Games: Memory/Puzzles</h3>
+            <p>
+              Improve problem-solving skills and spatial reasoning by navigating
+              through challenging mazes. Enhance memory skills and concentration
+              by matching pairs of colorful cards.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="legal">
+        <p>&copy; 2023 FirstSpell. All rights reserved.</p>
+        <ul>
+          <li>
+            <a href="http://uttesh.com/app/firstspell/private_policy.html"
+              >Privacy Policy</a
+            >
+          </li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
