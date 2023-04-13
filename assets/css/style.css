@@ -32,7 +32,7 @@ h6 {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #fff;
   margin-bottom: 15px;
 }
 
@@ -266,7 +266,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: #aaaaaa;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -279,16 +279,16 @@ h6 {
   font-size: 45px;
   font-weight: 700;
   line-height: 56px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #000;
 }
 
 #hero h1 span {
-  color: #fff;
+  color: #000;
   border-bottom: 4px solid yellow;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: #000;
   margin-bottom: 40px;
   font-size: 20px;
 }
@@ -302,7 +302,7 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
-  color: #fff;
+  color: #000;
   background: #1acc8d;
 }
 
