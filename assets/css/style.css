@@ -229,10 +229,12 @@ h6 {
 
 #header.header-transparent {
   background: transparent;
+  background-color: #e4ecff;
 }
 
 #header.header-scrolled {
   background: #fff;
+  background-color: #e4ecff;
   height: 60px;
 }
 
@@ -240,8 +242,9 @@ h6 {
   font-size: 28px;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 2;
   font-weight: 700;
+  margin-left: 12px;
 }
 
 #header .logo h1 a,
@@ -354,6 +357,7 @@ h6 {
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+    margin-top: 20%;
   }
 }
 
