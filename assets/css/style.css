@@ -1,10 +1,11 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #f6f9ff;
 }
 
 a {
-  color: #1acc8d;
+  color: #012970;
   text-decoration: none;
 }
 
@@ -32,7 +33,7 @@ h6 {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #fff;
+  color: #012970;
   margin-bottom: 15px;
 }
 
@@ -223,7 +224,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: #fff;
 }
 
 #header.header-transparent {
@@ -231,7 +232,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: #fff;
   height: 60px;
 }
 
@@ -245,7 +246,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #fff;
+  color: #012970;
   text-decoration: none;
 }
 
@@ -266,7 +267,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: #aaaaaa;
+  background: #fff;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -290,7 +291,7 @@ h6 {
 #hero h2 {
   color: #000;
   margin-bottom: 40px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #hero .btn-get-started {
@@ -465,68 +466,6 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #010483;
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background-color: #fafaff;
-  min-height: 40px;
-  margin-top: 80px;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 64px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 400;
-  margin: 0;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs h2 {
-    margin: 0 0 10px 0;
-  }
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -715,4 +654,9 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+
+.phone-img {
+  height: 90%;
+  border-radius: 4%;
 }
