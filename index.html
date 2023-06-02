@@ -27,7 +27,15 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
 
-  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YCQ005K7VK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YCQ005K7VK');
+</script>
 </head>
 
 <body>
@@ -142,7 +150,28 @@
 
         <div class="row content">
           <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/img/basics_screen.png" class="img-fluid phone-img" alt="" >
+            <!-- <img src="assets/img/slides/basic_page.jpg" class="img-fluid phone-img" alt="" > -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="assets/img/slides/intro.jpg" class="img-fluid phone-img" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="assets/img/slides/home.jpg" class="img-fluid phone-img" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="assets/img/slides/basic_page.jpg" class="img-fluid phone-img" alt="">
+                </div>
+              </div>
+              <button class="carousel-control-prev btn btn-warning" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-nex btn btn-warningt" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>Basics</h3>
@@ -164,7 +193,31 @@
 
         <div class="row content">
           <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/cvc_words.png" class="img-fluid phone-img" alt="">
+            <!-- <img src="assets/img/slides/spell_words.jpg" class="img-fluid phone-img" alt=""> -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="assets/img/slides/spell_words.jpg" class="img-fluid phone-img" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="assets/img/slides/regional_lang.jpg" class="img-fluid phone-img" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="assets/img/slides/kannada_varna_mala.jpg" class="img-fluid phone-img" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="assets/img/slides/hindi_varna_mala.jpg" class="img-fluid phone-img" alt="">
+                </div>
+              </div>
+              <button class="carousel-control-prev btn btn-warning" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-nex btn btn-warningt" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="col-md-8 pt-5" data-aos="fade-up">
             <h3>Reading</h3>
@@ -182,7 +235,24 @@
 
         <div class="row content">
           <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/img/home_screen.png" class="img-fluid phone-img" alt="">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="assets/img/slides/maze_game.jpg" class="img-fluid phone-img" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="assets/img/slides/memory_game.png" class="img-fluid phone-img" alt="">
+                </div>
+              </div>
+              <button class="carousel-control-prev btn btn-warning" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-nex btn btn-warningt" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
             <h3>Games: Memory/Puzzles</h3>
