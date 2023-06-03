@@ -654,9 +654,21 @@ section {
   color: #fff;
 }
 
+@media (max-width: 393px) {
+  #footer .footer-top .footer-info {
+    margin: -20px 0 30px 0;
+  }
+  .social-icons-ul {
+    width: 40%;
+  }
+}
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
+  }
+  .social-icons-ul {
+    width: 40%;
   }
 }
 
